@@ -1,0 +1,266 @@
+#body-layout-baiviet {
+  margin-left: 250px;
+}
+.baiviet-container {
+  padding: 0 15px;
+}
+.classify {
+  display: flex;
+  font-size: 13px;
+  border-bottom: 1px solid #ebebeb;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.classify p {
+  padding: 0;
+  margin: 0;
+  color: #6c757d;
+}
+.classify a {
+  color: #4b7dae;
+  cursor: pointer;
+}
+.classify a:hover {
+  color: #6c757d;
+}
+.post-content {
+  width: 700px;
+  margin: 0 auto;
+}
+.avatar-img {
+  width: 55px;
+  height: 43px;
+  border-radius: 55px;
+  overflow: hidden;
+}
+.i-avatar {
+  display: flex;
+  font-family: "Lora", "serif";
+}
+.post-content .tittle-text {
+  font-size: 2.5rem;
+  color: #000;
+  margin: 30px 0 15px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+}
+.post-content .description-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+.baiviet-format {
+  margin-left: -170px;
+  margin-right: -170px;
+  max-width: unset;
+  position: relative;
+  width: auto;
+  display: block;
+}
+.format-text {
+  padding: 0;
+  margin: 0;
+  max-width: none;
+  color: #000;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-family: "Lora", serif;
+}
+.baiviet-format img {
+  max-width: 100%;
+}
+.author-baivet {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-family: "Lora", serif;
+  color: #000;
+  font-weight: bolder;
+  text-align: right;
+  margin-top: 30px;
+  margin-bottom: 1rem;
+}
+.topic {
+  border-bottom: 1px solid #ebebeb;
+}
+.gallerybox {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-top: 15px;
+  overflow-x: auto;
+}
+.gallery-items {
+  width: 105px;
+  height: 79px;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  background-color: #ebebeb;
+  flex: 0 0 105px;
+}
+.hover-background {
+  width: 105px;
+  height: 79px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.2s;
+  z-index: 10;
+}
+.format-zoom-in {
+  color: #fff;
+  position: absolute;
+  z-index: 11;
+  top: 25px;
+  left: 35px;
+  opacity: 0;
+}
+#item:hover .format-zoom-in {
+  opacity: 1;
+}
+#item:hover .hover-background {
+  opacity: 1;
+}
+.gallery-items img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.text-grey {
+  color: #6c757d;
+  font-size: 12px;
+}
+.img-banner-baiviet {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.main-cate {
+  background-color: #f2f4f6;
+  position: relative;
+  padding: 15px 40px 0 40px;
+}
+
+.bailq .row {
+  padding: 0 40px;
+}
+.main-cate .ithumb-label {
+  top: 150px;
+}
+.main-cate .i-avatar {
+  padding-left: 40px;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+.any-text {
+  font-size: 13px;
+  padding: 30px 0 30px 40px;
+}
+.bailq {
+  margin-left: 15px;
+}
+.initial {
+  font-size: 16px;
+  border-bottom: 1px solid #555;
+  display: block;
+  padding: 10px 0;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 30px 40px 20px 40px;
+}
+.bailq .ithumb-label {
+  top: 147px;
+}
+.ishare {
+  width: 50px;
+  position: fixed;
+  top: 30%;
+  text-align: center;
+  right: 0;
+  background-color: #f2f4f6;
+  border-radius: 5px 0 0 5px;
+  padding: 15px 0 15px 7px;
+  transition: all ease-out 0.3s;
+  z-index: 100;
+  border: 1px solid #ebebeb;
+}
+.d-frame,
+.d-framett {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #fff;
+}
+.icon-share-fb,
+.icon-share-tt {
+  color: #7d7d7d;
+  margin-top: 10px;
+}
+.d-frame:hover {
+  background: #4b7dae;
+}
+.d-frame:hover .icon-share-fb {
+  color: #fff;
+}
+.d-framett:hover {
+  background: #4b7dae;
+}
+.d-framett:hover .icon-share-tt {
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .m-baiviet-layout {
+    margin-top: 56px;
+    padding: 0 15px;
+  }
+  .m-baiviet-layout h2 {
+    font-size: 2rem;
+    color: #000;
+    margin: 30px 0 15px;
+    display: block;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+  }
+  .m-baiviet-layout h4 {
+    line-height: 1.5;
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+  }
+  .m-format-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: "Lora", serif;
+    color: #212529;
+    text-align: left;
+    margin: 20px 0;
+  }
+  .m-img {
+    width: 100%;
+    max-height: none !important;
+    vertical-align: middle;
+    border-style: none;
+  }
+}

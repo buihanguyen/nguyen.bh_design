@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plugins/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/all.min.css">
+    <link rel="stylesheet" href="plugins/owl.carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owl.carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/design.css">
+</head>
+
+<body>
+    <div id="d-container" class="design">
+        <div id="d-sidebar">
+            <div class="idesign-logo">
+                <a href="#" class="i-logo"></a>
+            </div>
+            <div class="d-menu">
+                <ul>
+                    <li style="display: flex;" id="tv-option"><i class="fas fa-tv"></i><a href="#">Graphic Design</a>
+                        <div class="line-tv"></div>
+                    </li>
+                    <li style="display: flex;" id="pal-option"><i class="fas fa-palette"></i><a href="#">Art & Ads</a>
+                        <div class="line-pal"></div>
+                    </li>
+                    <li style="display: flex; position: relative;" id="bulb-option"><i class="far fa-lightbulb"></i><a
+                            href="#">Eco-Art</a>
+                        <div class="line-bulb"> <i class="icon-infor" id="icon-info"><svg width="18px" height="18px"
+                                    viewBox="0 0 16 16" class="bi bi-info-circle" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z" />
+                                    <circle cx="8" cy="4.5" r="1" />
+                                </svg></i></div>
+                        <div style="position: absolute;" class="hidden" id="message">
+                            <div class="frame"></div>
+                            <div class="msg">
+
+                                Nghệ thuật sinh thái có chủ đích
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display: flex;" id="rocket-option"><i class="fas fa-rocket"></i><a href="#">Tutorial</a>
+                        <div class="line-rocket"></div>
+                    </li>
+                    <li style="display: flex;" id="img-option"><i class="far fa-images"></i><a href="#">i-Gallery</a>
+                        <div class="line-img"></div>
+                    </li>
+                    <li id="d-menu-tinnoibat"><i class="far fa-star"></i><a href="#">Bài nổi
+                            bật</a>
+                        <div class="line-tin"></div>
+
+                    </li>
+                </ul>
+                <ul style="padding: 0;" id="d-menu-action">
+                    <li style="font-size: 16px; padding: 6px 12px;" id="active_search"> <svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                            <path fill-rule="evenodd"
+                                d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                        </svg></li>
+                    <li style="height:60px;width: 2px; background: #4d7bae;opacity: 0.6;margin:10px 0 20px 20px ">
+                    </li>
+                    <li id="fb-icon" style="margin-bottom: 20px;">
+                        <span class="media-fb-icon"><i class="fab fa-facebook-f abc white-fb"></i> </span>
+                    </li>
+                    <li id="ig-icon">
+                        <span class="media-ig-icon"><i class="fab fa-instagram white-ig"></i> </span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="action-search" id="action">
+            <div class="x-icon" id="x_icon">
+                <svg width="50px" height="50px" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                        d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z" />
+                </svg>
+            </div>
+            <div class="clearfix"></div>
+            <div style="display: flex; margin: 0 auto; width: 800px;">
+                <div class="input-container">
+                    <input type="text" placeholder="nhập từ khóa tìm kiếm..." class="action-input">
+
+                </div>
+                <i class="icon_search"><svg width="25px" height="25px" viewBox="0 0 16 16" class="bi bi-search"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                        <path fill-rule="evenodd"
+                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                    </svg></i>
+            </div>
+            <div style=" margin: 20px auto; width: 800px;">
+                <div class="mb-30">
+                    <a href="/graphic-design/" class="badge badge-pill badge-light ibadge">graphic
+                        design</a>
+                    <a href="/tag/font/" class="badge badge-pill badge-light ibadge">font</a>
+                    <a href="/tag/ui-ux/" class="badge badge-pill badge-light ibadge">UI/UX</a>
+                    <a href="/tag/facebook/" class="badge badge-pill badge-light ibadge">Facebook</a>
+                    <a href="/tag/art/" class="badge badge-pill badge-light ibadge">Art</a>
+                </div>
+            </div>
+
+        </div>
+        <div id="d-layout-body">
+            <h2 class="sidetitle sidetitle-gd"><span>Graphic Design</span></h2>
+            <div class="design-banner banner-format img-format">
+                <div class="design-faded-background"> </div>
+                <h3>Bắt đầu với UX, bạn có cần một người hướng dẫn?</h3>
+                <p>Học UX, UI, hay bất cứ thứ gì đều khó cả. Khó từ khâu hiểu bức tranh toàn cảnh mà mình đang muốn dấn
+                    thân. Khó tới khâu kiếm đâu ra nguồn tài liệu xịn xò để học vừa nhanh vừa chuẩn. Khó để duy trì động
+                    lực. Chưa nói đến câu chuyện làm sao […]</p>
+            </div>
+            <div class="d-layout-container">
+                <div class="filter-design">
+                    <div class="design-small-banner">
+                        <div class="img-banner-small"> <img src="images/design-banner.png" alt="" srcset=""></div>
+                    </div>
+                    <div class="design-action-filter">
+                        <div style="float: left;">
+                            <select name="" id="">
+                                <option value="">TẤT CẢ</option>
+                                <option value="">ADD AND ART</option>
+                                <option value="">ECO-ART</option>
+                                <option value="">ADD AND ART</option>
+                                <option value="">ECO-ART</option>
+
+                            </select>
+                        </div>
+                        <div style="float: right;">
+                            <select name="" id="">
+                                <option value="">MỚI NHẤT</option>
+                                <option value="">PHÕ BIẾN NHẤT</option>
+                                <option value="">A-Z</option>
+                            </select>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="new-article">
+                        <h2 class="header-text" style="font-weight: 700;">Bài viết mới</h2>
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6 post-item">
+                                <div class="ithumb" id="animetion1">
+                                    <div class="ithumb-share" id="media-icon10">
+                                        <div class="ithumb-fb-icon" style="margin-bottom: 20px;">
+                                            <span><i class="fab fa-facebook-f icon-default"></i>
+                                            </span>
+                                        </div>
+                                        <div class="ithumb-fb-icon ithumb-tt-icon">
+                                            <span><i class="fab fa-twitter icon-default-tt"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ithumb-img">
+                                        <a href="#" class="ithumb-cover"><img src="images/post-item1.webp" alt=""
+                                                id="img10"></a>
+                                        <div>
+                                            <a href="#" class="ithumb-label">ART AND ADS</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="ithumb-infor">
+                                        <h5>Cách chọn phối màu phim và những điều bạn nên biết</h5>
+                                        <div class="ithumb-time">
+                                            <i class="far fa-clock"></i>
+                                            <i class="ti-time"> 4 phút để đọc</i>
+                                            <div style="width: 135px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 post-item">
+                                <div class="ithumb" id="animetion1">
+                                    <div class="ithumb-share" id="media-icon10">
+                                        <div class="ithumb-fb-icon" style="margin-bottom: 20px;">
+                                            <span><i class="fab fa-facebook-f icon-default"></i>
+                                            </span>
+                                        </div>
+                                        <div class="ithumb-fb-icon ithumb-tt-icon">
+                                            <span><i class="fab fa-twitter icon-default-tt"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ithumb-img">
+                                        <a href="#" class="ithumb-cover"><img src="images/post-item1.webp" alt=""
+                                                id="img10"></a>
+                                        <div>
+                                            <a href="#" class="ithumb-label">ART AND ADS</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="ithumb-infor">
+                                        <h5>Cách chọn phối màu phim và những điều bạn nên biết</h5>
+                                        <div class="ithumb-time">
+                                            <i class="far fa-clock"></i>
+                                            <i class="ti-time"> 4 phút để đọc</i>
+                                            <div style="width: 135px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 post-item">
+                                <div class="ithumb" id="animetion1">
+                                    <div class="ithumb-share" id="media-icon10">
+                                        <div class="ithumb-fb-icon" style="margin-bottom: 20px;">
+                                            <span><i class="fab fa-facebook-f icon-default"></i>
+                                            </span>
+                                        </div>
+                                        <div class="ithumb-fb-icon ithumb-tt-icon">
+                                            <span><i class="fab fa-twitter icon-default-tt"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ithumb-img">
+                                        <a href="#" class="ithumb-cover"><img src="images/post-item1.webp" alt=""
+                                                id="img10"></a>
+                                        <div>
+                                            <a href="#" class="ithumb-label">ART AND ADS</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="ithumb-infor">
+                                        <h5>Cách chọn phối màu phim và những điều bạn nên biết</h5>
+                                        <div class="ithumb-time">
+                                            <i class="far fa-clock"></i>
+                                            <i class="ti-time"> 4 phút để đọc</i>
+                                            <div style="width: 135px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 post-item">
+                                <div class="ithumb" id="animetion1">
+                                    <div class="ithumb-share" id="media-icon10">
+                                        <div class="ithumb-fb-icon" style="margin-bottom: 20px;">
+                                            <span><i class="fab fa-facebook-f icon-default"></i>
+                                            </span>
+                                        </div>
+                                        <div class="ithumb-fb-icon ithumb-tt-icon">
+                                            <span><i class="fab fa-twitter icon-default-tt"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ithumb-img">
+                                        <a href="#" class="ithumb-cover"><img src="images/post-item1.webp" alt=""
+                                                id="img10"></a>
+                                        <div>
+                                            <a href="#" class="ithumb-label">ART AND ADS</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="ithumb-infor">
+                                        <h5>Cách chọn phối màu phim và những điều bạn nên biết</h5>
+                                        <div class="ithumb-time">
+                                            <i class="far fa-clock"></i>
+                                            <i class="ti-time"> 4 phút để đọc</i>
+                                            <div style="width: 135px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 post-item">
+                                <div class="ithumb" id="animetion1">
+                                    <div class="ithumb-share" id="media-icon10">
+                                        <div class="ithumb-fb-icon" style="margin-bottom: 20px;">
+                                            <span><i class="fab fa-facebook-f icon-default"></i>
+                                            </span>
+                                        </div>
+                                        <div class="ithumb-fb-icon ithumb-tt-icon">
+                                            <span><i class="fab fa-twitter icon-default-tt"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ithumb-img">
+                                        <a href="#" class="ithumb-cover"><img src="images/post-item1.webp" alt=""
+                                                id="img10"></a>
+                                        <div>
+                                            <a href="#" class="ithumb-label">ART AND ADS</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="ithumb-infor">
+                                        <h5>Cách chọn phối màu phim và những điều bạn nên biết</h5>
+                                        <div class="ithumb-time">
+                                            <i class="far fa-clock"></i>
+                                            <i class="ti-time"> 4 phút để đọc</i>
+                                            <div style="width: 135px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 post-item">
+                                <div class="ithumb" id="animetion1">
+                                    <div class="ithumb-share" id="media-icon10">
+                                        <div class="ithumb-fb-icon" style="margin-bottom: 20px;">
+                                            <span><i class="fab fa-facebook-f icon-default"></i>
+                                            </span>
+                                        </div>
+                                        <div class="ithumb-fb-icon ithumb-tt-icon">
+                                            <span><i class="fab fa-twitter icon-default-tt"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ithumb-img">
+                                        <a href="#" class="ithumb-cover"><img src="images/post-item1.webp" alt=""
+                                                id="img10"></a>
+                                        <div>
+                                            <a href="#" class="ithumb-label">ART AND ADS</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="ithumb-infor">
+                                        <h5>Cách chọn phối màu phim và những điều bạn nên biết</h5>
+                                        <div class="ithumb-time">
+                                            <i class="far fa-clock"></i>
+                                            <i class="ti-time"> 4 phút để đọc</i>
+                                            <div style="width: 135px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 post-item">
+                                <div class="ithumb" id="animetion1">
+                                    <div class="ithumb-share" id="media-icon10">
+                                        <div class="ithumb-fb-icon" style="margin-bottom: 20px;">
+                                            <span><i class="fab fa-facebook-f icon-default"></i>
+                                            </span>
+                                        </div>
+                                        <div class="ithumb-fb-icon ithumb-tt-icon">
+                                            <span><i class="fab fa-twitter icon-default-tt"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ithumb-img">
+                                        <a href="#" class="ithumb-cover"><img src="images/post-item1.webp" alt=""
+                                                id="img10"></a>
+                                        <div>
+                                            <a href="#" class="ithumb-label">ART AND ADS</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="ithumb-infor">
+                                        <h5>Cách chọn phối màu phim và những điều bạn nên biết</h5>
+                                        <div class="ithumb-time">
+                                            <i class="far fa-clock"></i>
+                                            <i class="ti-time"> 4 phút để đọc</i>
+                                            <div style="width: 135px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 post-item">
+                                <div class="ithumb" id="animetion1">
+                                    <div class="ithumb-share" id="media-icon10">
+                                        <div class="ithumb-fb-icon" style="margin-bottom: 20px;">
+                                            <span><i class="fab fa-facebook-f icon-default"></i>
+                                            </span>
+                                        </div>
+                                        <div class="ithumb-fb-icon ithumb-tt-icon">
+                                            <span><i class="fab fa-twitter icon-default-tt"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="ithumb-img">
+                                        <a href="#" class="ithumb-cover"><img src="images/post-item1.webp" alt=""
+                                                id="img10"></a>
+                                        <div>
+                                            <a href="#" class="ithumb-label">ART AND ADS</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="ithumb-infor">
+                                        <h5>Cách chọn phối màu phim và những điều bạn nên biết</h5>
+                                        <div class="ithumb-time">
+                                            <i class="far fa-clock"></i>
+                                            <i class="ti-time"> 4 phút để đọc</i>
+                                            <div style="width: 135px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="format-button">
+                        <div class="design-format-button">Đọc tiếp</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-footer">
+            <div class="action-up-to-top" id="scroll-to-top">
+                <svg width="25px" height="25px" viewBox="0 0 16 16" class="bi bi-chevron-up" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                </svg>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-xs-12">
+                    <h2>iDesign</h2>
+                    <p>111A Lý Chính Thắng, Phường 7, Quận 3, TP. Hồ Chí Minh<br>
+                        ©2018 - Bản quyền bởi iDesign.vn</p>
+                    <p><i class="far fa-envelope"></i> <a href="mailto:hello@idesign.vn">hello@idesign.vn</a>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-xs-12">
+                    <h2>Newsletter</h2>
+                    <p>Nhận thông tin mới nhất từ iDesign</p>
+                    <div>
+                        <div class="form-row align-items-center">
+
+                            <div class="col-auto">
+                                <button type="button" id="subscribe-notifications-container"
+                                    class="btn btn-secondary mb-2 btn-sm">Subscribe
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="m-container">
+        <div id="m-header">
+            <i id="icon-toggle" class="icon_toggle" onclick="doToggle()">
+                <svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </i>
+            <i class="icon_toggle hidden-icon" id="hidden-icon" onclick="doHidden()"><svg width="30px" height="30px"
+                    viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                        d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z" />
+                </svg></i>
+            <div class="m-i_logo " id="i-logo">
+
+            </div>
+        </div>
+        <div class="m-toggle-menu">
+            <div class="d-menu " style="z-index: 2000;" id="m_toggle_menu">
+                <ul>
+                    <li style="display: flex;" id="tv-option"><i class="fas fa-tv"></i><a href="#">Graphic Design</a>
+                        <div class="line-tv"></div>
+                    </li>
+                    <li style="display: flex;" id="pal-option"><i class="fas fa-palette"></i><a href="#">Art & Ads</a>
+                        <div class="line-pal"></div>
+                    </li>
+                    <li style="display: flex; position: relative;" id="bulb-option"><i class="far fa-lightbulb"></i><a
+                            href="#">Eco-Art</a>
+                        <div class="line-bulb"> <i class="icon-infor"><svg width="18px" height="18px"
+                                    viewBox="0 0 16 16" class="bi bi-info-circle" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z" />
+                                    <circle cx="8" cy="4.5" r="1" />
+                                </svg></i></div>
+                    </li>
+                    <li style="display: flex;" id="rocket-option"><i class="fas fa-rocket"></i><a href="#">Tutorial</a>
+                        <div class="line-rocket"></div>
+                    </li>
+                    <li style="display: flex;" id="img-option"><i class="far fa-images"></i><a href="#">i-Gallery</a>
+                        <div class="line-img"></div>
+                    </li>
+                    <li id="d-menu-tinnoibat"><i class="far fa-star"></i><a href="#">Bài nổi
+                            bật</a>
+                        <div class="line-tin"></div>
+
+                    </li>
+                </ul>
+                <ul style="padding: 0;" id="d-menu-action">
+                    <li style="font-size: 16px; padding: 6px 12px;" id="m-active_search"> <svg width="1em" height="1em"
+                            viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                            <path fill-rule="evenodd"
+                                d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                        </svg></li>
+                    <li
+                        style="height:60px;width: 2px; background: #4d7bae;opacity: 0.6;margin-left: 18px; margin-bottom: 20px;">
+                    </li>
+                    <li id="fb-icon" style="margin-bottom: 20px;">
+                        <span class="media-fb-icon"><i class="fab fa-facebook-f abc white-fb"></i> </span>
+                    </li>
+                    <li id="ig-icon">
+                        <span class="media-ig-icon"><i class="fab fa-instagram white-ig"></i> </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="m_action-search hidden-icon" id="m-search-form">
+            <div class="x-icon " id="mx_icon">
+                <svg width="60px" height="60px" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z" />
+                    <path fill-rule="evenodd"
+                        d="M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z" />
+                </svg>
+            </div>
+            <div class="clearfix"></div>
+            <div style="display: flex; position: relative; padding-top: 15px; margin: 150px 0 0 15px;">
+                <div class="m_input_container"><input type="text" id="m_input" placeholder="nhập từ khóa tìm kiếm.." />
+                </div>
+                <i class="icon_search"><svg width="25px" height="25px" viewBox="0 0 16 16" class="bi bi-search"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                        <path fill-rule="evenodd"
+                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                    </svg></i>
+            </div>
+            <div class="mb-30" style="margin: 10px 0 0 50px; max-width: 250px;">
+                <a href="/graphic-design/" class="badge badge-pill badge-light ibadge">graphic
+                    design</a>
+                <a href="/tag/font/" class="badge badge-pill badge-light ibadge">font</a>
+                <a href="/tag/ui-ux/" class="badge badge-pill badge-light ibadge">UI/UX</a>
+                <a href="/tag/facebook/" class="badge badge-pill badge-light ibadge">Facebook</a>
+                <a href="/tag/art/" class="badge badge-pill badge-light ibadge">Art</a>
+            </div>
+
+        </div>
+        <div class="m-layout-body" id="m_layout">
+
+            <div class="design-banner banner-format img-format" style="overflow-x: hidden;">
+                <h2 class="sidetitle sidetitle-gd"><span>Graphic Design</span></h2>
+                <div class="design-faded-background"> </div>
+                <h3>Bắt đầu với UX, bạn có cần một người hướng dẫn?</h3>
+
+            </div>
+            <div>
+                <div style="margin: 20px 0 30px 40px;">
+                    <img src="images/design-banner.png" alt="">
+                </div>
+                <div class="design-action-filter">
+                    <div style="float: left; margin:0 15px 0 15px;">
+                        <select name="" id="">
+                            <option value="">TẤT CẢ</option>
+                            <option value="">ADD AND ART</option>
+                            <option value="">ECO-ART</option>
+                            <option value="">ADD AND ART</option>
+                            <option value="">ECO-ART</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <select name="" id="">
+                            <option value="">MỚI NHẤT</option>
+                            <option value="">PHÕ BIẾN NHẤT</option>
+                            <option value="">A-Z</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div>
+
+                    <h2 class="header-text" style="font-weight: 700;">Bài viết mới</h2>
+                    <div class="col-lg-4 col-sm-12" style="width: 375px;">
+                        <div class="ithumb" id="ithumb-animetion1">
+                            <div class="ithumb-share" id="media-icon1">
+                                <div class="ithumb-fb-icon" style="margin-bottom: 20px;" id="fb_icon1">
+                                    <span><i class="fab fa-facebook-f icon-default" id="fb1"></i>
+                                    </span>
+                                </div>
+                                <div class="ithumb-fb-icon ithumb-tt-icon " id="tt_icon1">
+                                    <span><i class="fab fa-twitter icon-default-tt" id="tt1"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="ithumb-img">
+                                <a href="#" class="ithumb-cover"><img src="images/feature1.webp" alt="" id="img1"></a>
+                                <div>
+                                    <a href="#" class="ithumb-label">Graphic Design</a>
+                                </div>
+
+                            </div>
+                            <div class="ithumb-infor">
+                                <h5>Khác biệt giữa thiết kế lấy người dùng làm trung tâm (HCD) và thiết kế trải nghiệm
+                                    người
+                                    dùng (UX) là gì?</h5>
+                                <div class="ithumb-time">
+                                    <i class="far fa-clock"></i>
+                                    <i class="ti-time"> 4 phút</i>
+                                    <div style="width: 275px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" style="width: 375px;">
+                        <div class="ithumb" id="ithumb-animetion1">
+                            <div class="ithumb-share" id="media-icon1">
+                                <div class="ithumb-fb-icon" style="margin-bottom: 20px;" id="fb_icon1">
+                                    <span><i class="fab fa-facebook-f icon-default" id="fb1"></i>
+                                    </span>
+                                </div>
+                                <div class="ithumb-fb-icon ithumb-tt-icon " id="tt_icon1">
+                                    <span><i class="fab fa-twitter icon-default-tt" id="tt1"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="ithumb-img">
+                                <a href="#" class="ithumb-cover"><img src="images/feature1.webp" alt="" id="img1"></a>
+                                <div>
+                                    <a href="#" class="ithumb-label">Graphic Design</a>
+                                </div>
+
+                            </div>
+                            <div class="ithumb-infor">
+                                <h5>Khác biệt giữa thiết kế lấy người dùng làm trung tâm (HCD) và thiết kế trải nghiệm
+                                    người
+                                    dùng (UX) là gì?</h5>
+                                <div class="ithumb-time">
+                                    <i class="far fa-clock"></i>
+                                    <i class="ti-time"> 4 phút</i>
+                                    <div style="width: 275px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" style="width: 375px;">
+                        <div class="ithumb" id="ithumb-animetion1">
+                            <div class="ithumb-share" id="media-icon1">
+                                <div class="ithumb-fb-icon" style="margin-bottom: 20px;" id="fb_icon1">
+                                    <span><i class="fab fa-facebook-f icon-default" id="fb1"></i>
+                                    </span>
+                                </div>
+                                <div class="ithumb-fb-icon ithumb-tt-icon " id="tt_icon1">
+                                    <span><i class="fab fa-twitter icon-default-tt" id="tt1"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="ithumb-img">
+                                <a href="#" class="ithumb-cover"><img src="images/feature1.webp" alt="" id="img1"></a>
+                                <div>
+                                    <a href="#" class="ithumb-label">Graphic Design</a>
+                                </div>
+
+                            </div>
+                            <div class="ithumb-infor">
+                                <h5>Khác biệt giữa thiết kế lấy người dùng làm trung tâm (HCD) và thiết kế trải nghiệm
+                                    người
+                                    dùng (UX) là gì?</h5>
+                                <div class="ithumb-time">
+                                    <i class="far fa-clock"></i>
+                                    <i class="ti-time"> 4 phút</i>
+                                    <div style="width: 275px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" style="width: 375px;">
+                        <div class="ithumb" id="ithumb-animetion1">
+                            <div class="ithumb-share" id="media-icon1">
+                                <div class="ithumb-fb-icon" style="margin-bottom: 20px;" id="fb_icon1">
+                                    <span><i class="fab fa-facebook-f icon-default" id="fb1"></i>
+                                    </span>
+                                </div>
+                                <div class="ithumb-fb-icon ithumb-tt-icon " id="tt_icon1">
+                                    <span><i class="fab fa-twitter icon-default-tt" id="tt1"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="ithumb-img">
+                                <a href="#" class="ithumb-cover"><img src="images/feature1.webp" alt="" id="img1"></a>
+                                <div>
+                                    <a href="#" class="ithumb-label">Graphic Design</a>
+                                </div>
+
+                            </div>
+                            <div class="ithumb-infor">
+                                <h5>Khác biệt giữa thiết kế lấy người dùng làm trung tâm (HCD) và thiết kế trải nghiệm
+                                    người
+                                    dùng (UX) là gì?</h5>
+                                <div class="ithumb-time">
+                                    <i class="far fa-clock"></i>
+                                    <i class="ti-time"> 4 phút</i>
+                                    <div style="width: 275px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" style="width: 375px;">
+                        <div class="ithumb" id="ithumb-animetion1">
+                            <div class="ithumb-share" id="media-icon1">
+                                <div class="ithumb-fb-icon" style="margin-bottom: 20px;" id="fb_icon1">
+                                    <span><i class="fab fa-facebook-f icon-default" id="fb1"></i>
+                                    </span>
+                                </div>
+                                <div class="ithumb-fb-icon ithumb-tt-icon " id="tt_icon1">
+                                    <span><i class="fab fa-twitter icon-default-tt" id="tt1"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="ithumb-img">
+                                <a href="#" class="ithumb-cover"><img src="images/feature1.webp" alt="" id="img1"></a>
+                                <div>
+                                    <a href="#" class="ithumb-label">Graphic Design</a>
+                                </div>
+
+                            </div>
+                            <div class="ithumb-infor">
+                                <h5>Khác biệt giữa thiết kế lấy người dùng làm trung tâm (HCD) và thiết kế trải nghiệm
+                                    người
+                                    dùng (UX) là gì?</h5>
+                                <div class="ithumb-time">
+                                    <i class="far fa-clock"></i>
+                                    <i class="ti-time"> 4 phút</i>
+                                    <div style="width: 275px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" style="width: 375px;">
+                        <div class="ithumb" id="ithumb-animetion1">
+                            <div class="ithumb-share" id="media-icon1">
+                                <div class="ithumb-fb-icon" style="margin-bottom: 20px;" id="fb_icon1">
+                                    <span><i class="fab fa-facebook-f icon-default" id="fb1"></i>
+                                    </span>
+                                </div>
+                                <div class="ithumb-fb-icon ithumb-tt-icon " id="tt_icon1">
+                                    <span><i class="fab fa-twitter icon-default-tt" id="tt1"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="ithumb-img">
+                                <a href="#" class="ithumb-cover"><img src="images/feature1.webp" alt="" id="img1"></a>
+                                <div>
+                                    <a href="#" class="ithumb-label">Graphic Design</a>
+                                </div>
+
+                            </div>
+                            <div class="ithumb-infor">
+                                <h5>Khác biệt giữa thiết kế lấy người dùng làm trung tâm (HCD) và thiết kế trải nghiệm
+                                    người
+                                    dùng (UX) là gì?</h5>
+                                <div class="ithumb-time">
+                                    <i class="far fa-clock"></i>
+                                    <i class="ti-time"> 4 phút</i>
+                                    <div style="width: 275px;height: 1px; background: rgba(0,0,0,.1);"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="format-button">
+                    <div class="design-format-button">Đọc tiếp</div>
+                </div>
+
+
+            </div>
+        </div>
+        <div style="height: 100px"></div>
+        <div class="m-footer">
+            <div class="m-footer-text">
+                iDesign
+            </div>
+            <p>
+                111A Lý Chính Thắng, Phường 7, Quận 3, TP. Hồ Chí Minh
+                <br />
+                ©2018 - Bản quyền bởi iDesign.vn</p>
+            <span style="display: flex;"><i><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                    </svg></i> <a href="" style="color: #4d7bae; margin-left: 5px;">hello@idesign.vn</a></span>
+            <div class="m-footer-text">
+                Newsletter
+            </div>
+            <p>Nhận thông tin mới nhất từ iDesign</p>
+            <button type="button" class="m-btn-sub">Subscribe
+            </button>
+        </div>
+    </div>
+</body>
+<script>
+    var width = screen.width;
+    var a = document.getElementById("m-container");
+    var b = document.getElementById("d-container");
+    if (width > 768) {
+        a.style.display = "none";
+    } else {
+        b.style.display = "none";
+        a.style.display = "block";
+    }
+</script>
+<script src="plugins/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+<script src="plugins/owl.carousel/owl.carousel.min.js"></script>
+<script src="plugins/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+<script src="js/design.js"></script>
+
+</body>
+
+</html>

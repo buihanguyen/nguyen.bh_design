@@ -1,0 +1,233 @@
+.design-banner {
+  background-image: url("../images/design_banner.jpg");
+  height: 440px;
+}
+.design-faded-background {
+  position: absolute;
+  height: 440px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+  z-index: 1;
+}
+#d-layout-body {
+  margin-left: 250px;
+  position: relative;
+  padding-bottom: 30px;
+  width: calc(100% - 250px);
+}
+.banner-format {
+  padding: 120px;
+  text-align: center;
+  background-color: #000;
+  position: relative;
+
+  color: #fff;
+
+  min-height: 250px;
+}
+.img-format {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-format h3 {
+  text-shadow: 0px 5px 10px #000000;
+  font-size: 2.5rem;
+  font-weight: 700;
+  max-width: 960px;
+  color: #fff;
+  margin: auto;
+  position: absolute;
+  z-index: 200;
+  left: 50px;
+  top: 70px;
+}
+.img-format p {
+  padding: 15px 0;
+  max-width: 640px;
+  margin: auto;
+  color: #fff;
+  z-index: 100;
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  left: 250px;
+}
+.sidetitle {
+  top: 0;
+  left: 0;
+  height: 440px;
+  margin: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 75px;
+  line-height: 75px;
+  padding-top: 30px;
+}
+.sidetitle {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: absolute;
+
+  left: 0;
+  font-size: 2.3rem;
+  color: #b7b7b7;
+  font-weight: 900;
+
+  margin: 0;
+}
+.d-layout-container {
+  padding: 15px 30px 0 30px;
+}
+.design-small-banner {
+  text-align: center;
+}
+.design-action-filter {
+  padding-top: 15px;
+}
+.design-action-filter select {
+  outline: none;
+  font-size: 12px;
+  background-color: #f2f4f6 !important;
+  text-transform: uppercase;
+  width: auto;
+  height: 40px;
+  line-height: 1.5;
+  display: inline-block;
+  border: 1px solid #ebebeb;
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%);
+  background-position: calc(100% - 10px) calc(1em + 2px),
+    calc(100% - 5px) calc(1em + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  padding: 5px 20px 5px 5px;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  color: #495057;
+}
+.design-action-filter .clearfix {
+  height: 40px;
+}
+
+.header-text {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 900;
+  border-bottom: 1px solid #555;
+  display: block;
+  padding: 10px 0;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.new-article .ithumb-label {
+  position: relative;
+  padding: 5px 10px;
+  font-size: 0.6rem;
+  z-index: 0;
+  text-transform: uppercase;
+  border-radius: 0;
+  color: #000;
+  top: 155px;
+}
+
+.new-article {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.format-button {
+  margin-top: 30px;
+  padding: 30px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.design-format-button {
+  background-color: #fff;
+  border: 1px solid #d7d7d7;
+  font-size: 18px;
+  color: #7d7d7d;
+  padding: 13px 60px;
+  border-radius: 50px;
+  min-width: 180px;
+  transition: all 0.3s ease-out;
+  display: inline-block;
+  cursor: pointer;
+}
+.design .d-footer {
+  top: 1550px;
+}
+@media only screen and (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+  .design-banner {
+    height: 400px;
+  }
+  .design-faded-background {
+    height: 400px;
+  }
+  .img-format h3 {
+    text-shadow: 0px 5px 10px #000000;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    text-align: left;
+    max-width: 230px;
+    position: absolute;
+    z-index: 200;
+    left: 40px;
+    top: 0px;
+  }
+  .sidetitle {
+    height: 400px;
+  }
+  .design-action-filter {
+    padding-top: 0px;
+  }
+  .design-action-filter select {
+    border-radius: 5px;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  .header-text {
+    margin: 15px;
+    margin: 15px;
+  }
+  .format-button {
+    border-top: 1px solid #ebebeb;
+    margin-top: 50px;
+  }
+  .m-footer {
+    padding: 15px 30px;
+    width: 100%;
+
+    background: #ebebeb;
+  }
+  .m-footer-text {
+    font-size: 1.7em;
+    font-weight: 700;
+  }
+  .m-footer p {
+    text-align: left;
+    color: #000;
+    margin-bottom: 13px;
+  }
+  .m-btn-sub {
+    background-color: #4d7bae;
+    border-radius: 15px;
+    border-color: #4d7bae;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+}
