@@ -1,3 +1,3 @@
-# IDesign.com - Mr.Nam
+# IDesign.com - Mr.Nguyen
 
 Thiết kế layout
